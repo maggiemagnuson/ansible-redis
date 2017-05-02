@@ -61,7 +61,7 @@ And here's the playbook:
 - name: configure the master redis server
   hosts: redis-master
   roles:
-    - DavidWittman.redis
+    - redis
 
 - name: configure redis slaves
   hosts: redis-slave
